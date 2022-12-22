@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class task1_phonebook {
     HashMap<Integer, HashMap<String, String>> users = new HashMap<>();
     HashMap<String, Integer> phones = new HashMap<>();
