@@ -1,4 +1,4 @@
-// 1. Реализуйте структуру телефонной книги с помощью HashMap, учитывая, что 1 человек может иметь несколько телефонов.
+// 1. Реализуйте структуру телефонной книги с помощью HashMap, учитывая, что 1 человек может иметь несколько телефонов
 
 package hw5_java;
 
@@ -15,6 +15,7 @@ public class task1_main {
         myPhoneBook.addPhone("+79289502298", 1);
         myPhoneBook.addPhone("+79269934556", 2);
         myPhoneBook.addPhone("+79858458862", 1);
+        myPhoneBook.addPhone("+79858458864", 3);
 
         for (ArrayList<String> user : myPhoneBook.getAll()) {
             System.out.println(user);
